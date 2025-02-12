@@ -3,7 +3,7 @@ const fs= require ("fs");
 const ruta= "./datos.json";
 const datos= fs.readFileSync(ruta, "utf8");
 const cafeteria=JSON.parse(datos);
-
+//hola
 class MaquinaCafe{
     constructor(){
  //Nombre, agua, lecha, azucar, cafe??
